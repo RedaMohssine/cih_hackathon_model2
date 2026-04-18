@@ -1,0 +1,51 @@
+{
+  "farm": {
+    "lat": 33.88,
+    "lon": -5.55,
+    "region": "Mekn\u00e8s, Morocco"
+  },
+  "assessment_date": "2026-04-18",
+  "data_window": {
+    "from": "2024-04",
+    "to": "2026-03",
+    "months": 24
+  },
+  "quality_score": 47.0,
+  "sub_scores": {
+    "productivity": 87.8,
+    "consistency": 24.5,
+    "trend": 43.1,
+    "vegetation": 15.9,
+    "resilience": 34.9
+  },
+  "vegetation": {
+    "mean_ndvi": 0.2562,
+    "mean_gndvi": 0.3676,
+    "peak_ndvi": 0.3339,
+    "peak_ndvi_month": "2026-02",
+    "green_months": 9,
+    "ndvi_slope_per_month": 0.000903,
+    "ndvi_trend": "improving"
+  },
+  "climate": {
+    "avg_temperature_c": 26.75,
+    "avg_rainfall_mm_month": 41.48,
+    "total_rainfall_mm": 995.5,
+    "avg_soil_moisture_pct": 22.8,
+    "dry_season_sm_pct": 15.51,
+    "stress_months_count": 7,
+    "stress_months": [
+      "2024-06",
+      "2024-07",
+      "2024-08",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09"
+    ]
+  },
+  "resilience": {
+    "avg_sm_during_stress": 15.31,
+    "stress_months_count": 7
+  }
+}
