@@ -201,7 +201,7 @@ Réponds UNIQUEMENT avec ce JSON, sans texte autour, sans markdown :
 {
   "stage": "<libellé exact parmi les 6 ci-dessus>",
   "confidence": "<haute | moyenne | faible>",
-  "paragraph": "<paragraphe de 3 phrases en français : (1) localisation, stade actuel et chiffres clés NDVI/humidité qui le confirment ; (2) points forts agronomiques et financiers avec les scores de qualité, productivité et résilience ; (3) points de vigilance pour l'analyste crédit CIH avec les risques climatiques ou de variabilité>"
+  "paragraph": "<paragraphe de 3 phrases MAXIMUM en français, chaque phrase sur une ligne séparée, total 4 lignes maximum : (1) localisation, stade actuel et chiffres clés NDVI/humidité qui le confirment ; (2) points forts agronomiques et financiers avec les scores de qualité, productivité et résilience ; (3) points de vigilance pour l'analyste crédit CIH avec les risques climatiques ou de variabilité. IMPORTANT : sois concis, chaque phrase ne doit pas dépasser une ligne.>"
 }
 """
 
