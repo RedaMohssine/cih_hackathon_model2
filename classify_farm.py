@@ -1,13 +1,3 @@
-"""
-Farm Stage Classifier
-Claude reads the full assessment report, applies a detailed agronomic
-methodology, classifies the farm stage in French, and writes a paragraph.
-
-Usage:
-    python classify_farm.py test_report.json
-    from classify_farm import classify
-"""
-
 import os, json, sys
 from dotenv import load_dotenv
 import anthropic
@@ -207,13 +197,6 @@ Réponds UNIQUEMENT avec ce JSON, sans texte autour, sans markdown :
 
 
 def classify(report: dict) -> dict:
-    """
-    Args:
-        report: dict from the /assess endpoint
-
-    Returns:
-        { "stage": str, "confidence": str, "paragraph": str }
-    """
     user_content = (
         "Voici le rapport d'évaluation satellitaire de l'exploitation :\n\n"
         + json.dumps(report, ensure_ascii=False, indent=2)
